@@ -6,13 +6,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		double boy,kilo,endeks;
+		double heigth,weigth,index;
 		System.out.println("Boyunuzu santimetre cinsinden giriniz");
-		boy=scanner.nextDouble()/100;
+		heigth=scanner.nextDouble()/100;
 		System.out.println("Kilonuzu kg cinsinden giriniz");
-		kilo=scanner.nextDouble();
-		endeks=kilo/(boy*boy);
-		System.out.println("Vücut Kitle Endeksiniz: " + endeks);
+		weigth=scanner.nextDouble();
+		indexs=weigth/(heigth*heigth);
+		System.out.println("VÃ¼cut Kitle Endeksiniz: " + index);
 	}
 
 }
